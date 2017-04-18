@@ -1,0 +1,17 @@
+﻿Построение начато 21.03.2014 13:26:54.
+     1>Проект "C:\Users\stud\Documents\Visual Studio 2012\Projects\pacman\pacman\pacman.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\pacman.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt pacman.cpp
+         pacman.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\stud\Documents\Visual Studio 2012\Projects\pacman\Release\pacman.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\stud\Documents\Visual Studio 2012\Projects\pacman\Release\pacman.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\stud\Documents\Visual Studio 2012\Projects\pacman\Release\pacman.lib" /MACHINE:X86 /SAFESEH Release\pacman.obj
+         Release\stdafx.obj
+         Создание кода
+     1>c:\users\stud\documents\visual studio 2012\projects\pacman\pacman\pacman.cpp(319): warning C4715: ghost::Move: значение возвращается не при всех путях выполнения
+         Создание кода завершено
+         pacman.vcxproj -> C:\Users\stud\Documents\Visual Studio 2012\Projects\pacman\Release\pacman.exe
+     1>Построение проекта "C:\Users\stud\Documents\Visual Studio 2012\Projects\pacman\pacman\pacman.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.73
